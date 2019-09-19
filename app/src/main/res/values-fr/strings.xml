@@ -2,5 +2,13 @@
 <resources>
     <string name="app_name">AndroidAssignments</string>
     <string name="hello_message">Bonjour!</string>
-    <string name="ButtonText">Je suis une boutton</string>
+    <string name="Login">Identification</string>
+    <string name="Password">mot de pass</string>
+    <string name="ButtonText">I\’m a button</string>
+    <string name="switchTitle">Qu-es-ce-que ca fait?</string>
+    <string name="loginHint">Nom de S\'identification</string>
+    <string name="RadioBttn">Radiobutton</string>
+    <string name="CheckBttn">CheckButton</string>
+    <string name="Content">Description</string>
+    <string name="PasswordHint"> </string>
 </resources>
