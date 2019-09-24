@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AndroidAssignments</string>
+    <string name="app_name">Assignment2</string>
     <string name="hello_message">Bonjour!</string>
     <string name="Login">Identification</string>
     <string name="Password">mot de pass</string>
@@ -11,4 +11,5 @@
     <string name="CheckBttn">CheckButton</string>
     <string name="Content">Description</string>
     <string name="PasswordHint"> </string>
+    <string name="LoginButton">Identifie</string>
 </resources>

@@ -14,7 +14,7 @@
         android:text="@string/Login" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/emailText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -33,7 +33,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/loginHint"
+        android:hint="@string/PasswordHint"
         android:importantForAutofill="no"
         android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveEmail"
+        android:text="@string/LoginButton" />
 </LinearLayout>
