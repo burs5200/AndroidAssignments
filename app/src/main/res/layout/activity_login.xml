@@ -20,7 +20,8 @@
         android:ems="10"
         android:hint="@string/loginHint"
         android:importantForAutofill="no"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        tools:ignore="TextFields" />
 
     <TextView
         android:id="@+id/textView3"

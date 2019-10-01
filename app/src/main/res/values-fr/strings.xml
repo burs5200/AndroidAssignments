@@ -12,4 +12,11 @@
     <string name="Content">Description</string>
     <string name="PasswordHint"> </string>
     <string name="LoginButton">Identifie</string>
+    <string name="dialog_message">Veux tu fermer cette activite? </string>
+    <string name="dialog_title">Notification de fermeture</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+    <string name="StartChat">commence a parler</string>
+    <string name="ChatHint">Entre text ici</string>
+    <string name="SendBttn">Envoyez</string>
 </resources>

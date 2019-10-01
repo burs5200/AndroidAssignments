@@ -11,7 +11,7 @@ import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class LoginActivity extends AppCompatActivity {
-    protected final String ACTIVITY_NAME = "LoginActivity";
+    private final String ACTIVITY_NAME = "LoginActivity";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,23 +39,26 @@ public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onPause() {
-        super.onPause();
         Log.i(ACTIVITY_NAME, "In onPause()");
+        super.onPause();
+
     }
 
     @Override
     protected void onStop() {
-        super.onStop();
         Log.i(ACTIVITY_NAME, "In onStop()");
+        super.onStop();
+
     }
 
     @Override
     protected void onDestroy() {
-        super.onDestroy();
         Log.i(ACTIVITY_NAME, "In onDestroy()");
+        super.onDestroy();
+
     }
 
-    public void saveEmail(View view) {
+    public void saveEmail(@SuppressWarnings("unused") View view) {
         EditText emailText = findViewById(R.id.emailText);
         String emailString = emailText.getText().toString();
         SharedPreferences sharedPref = LoginActivity.this.getPreferences(Context.MODE_PRIVATE);
@@ -63,7 +66,7 @@ public class LoginActivity extends AppCompatActivity {
         Log.i(ACTIVITY_NAME, emailString);
         editor.putString(getString(R.string.app_name), emailString);
         editor.apply();
-        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+        Intent intent = new Intent(LoginActivity.this, StartActivity.class);
         startActivity(intent);
     }
 }
